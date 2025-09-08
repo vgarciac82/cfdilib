@@ -1,0 +1,187 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.angelsoft</groupId>
+  <artifactId>cfdilib</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>cfdilib</name>
+  <description>CFDI 4.0: parseo, validación, cadena original y sellado para batch</description>
+  <url>https://github.com/angelsoft-mx/cfdilib</url>
+
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>angelsoft</id>
+      <name>Angelsoft</name>
+      <email>dev@angelsoft.com</email>
+    </developer>
+  </developers>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.release>17</maven.compiler.release>
+    <maven.compiler.parameters>true</maven.compiler.parameters>
+
+    <jakarta.xml.bind.version>4.0.0</jakarta.xml.bind.version>
+    <jaxb.impl.version>4.0.5</jaxb.impl.version>
+    <activation.version>2.1.2</activation.version>
+    <commons.io.version>2.15.1</commons.io.version>
+    <notyetcommons.version>0.3.9</notyetcommons.version>
+    <junit4.version>4.13.2</junit4.version>
+  </properties>
+
+  <dependencies>
+    <!-- JAXB API (Jakarta 4) -->
+    <dependency>
+      <groupId>jakarta.xml.bind</groupId>
+      <artifactId>jakarta.xml.bind-api</artifactId>
+      <version>${jakarta.xml.bind.version}</version>
+    </dependency>
+
+    <!-- RI JAXB (runtime) -->
+    <dependency>
+      <groupId>org.glassfish.jaxb</groupId>
+      <artifactId>jaxb-runtime</artifactId>
+      <version>${jaxb.impl.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.glassfish.jaxb</groupId>
+      <artifactId>jaxb-core</artifactId>
+      <version>${jaxb.impl.version}</version>
+      <scope>runtime</scope>
+    </dependency>
+    
+    <dependency>
+	  <groupId>commons-io</groupId>
+	  <artifactId>commons-io</artifactId>
+	  <version>2.15.1</version>
+	</dependency>
+
+
+		<!-- Activation (Java 9+) -->
+    <dependency>
+      <groupId>jakarta.activation</groupId>
+      <artifactId>jakarta.activation-api</artifactId>
+      <version>${activation.version}</version>
+    </dependency>
+
+		<!-- StreamUtils puede requerir BOMInputStream -->
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>${commons.io.version}</version>
+    </dependency>
+
+		<!-- PKCS8Key: si tu PrivateKeyLoader sigue usándolo -->
+    <dependency>
+      <groupId>ca.juliusdavies</groupId>
+      <artifactId>not-yet-commons-ssl</artifactId>
+      <version>${notyetcommons.version}</version>
+    </dependency>
+
+		<!-- API de logging para la librería -->
+  <dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>2.0.13</version>
+  </dependency>
+
+		<!-- Backend de logging SOLO en test -->
+  <dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-classic</artifactId>
+    <version>1.5.6</version>
+    <scope>test</scope>
+  </dependency>
+
+		<!-- Tests (Junit 4) -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>${junit4.version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+			<!-- Compilación Java 17 -->
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.13.0</version>
+        <configuration>
+          <release>${maven.compiler.release}</release>
+          <parameters>${maven.compiler.parameters}</parameters>
+          <compilerArgs>
+            <arg>-Xlint:unchecked</arg>
+          </compilerArgs>
+        </configuration>
+      </plugin>
+
+			<!-- Empaquetado normal (sin spring-boot:repackage) -->
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.4.2</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+              <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+
+			<!-- Adjuntar fuentes -->
+      <plugin>
+        <artifactId>maven-source-plugin</artifactId>
+        <version>3.3.1</version>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals><goal>jar</goal></goals>
+          </execution>
+        </executions>
+      </plugin>
+
+			<!-- Adjuntar javadoc -->
+      <plugin>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.7.0</version>
+        <configuration>
+          <source>${maven.compiler.release}</source>
+          <encoding>${project.build.sourceEncoding}</encoding>
+          <doclint>none</doclint>
+        </configuration>
+        <executions>
+          <execution>
+            <id>attach-javadocs</id>
+            <goals><goal>jar</goal></goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+	<!-- Publicación a GitHub Packages (opcional). Ajusta org/repo y usa tus credenciales en settings.xml -->
+	<!--
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/GrupoCorasa/cfdi-base</url>
+    </repository>
+  </distributionManagement>
+  -->
+</project>

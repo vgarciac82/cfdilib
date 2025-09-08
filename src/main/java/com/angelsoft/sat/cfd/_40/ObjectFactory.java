@@ -1,0 +1,298 @@
+//
+// Este archivo ha sido generado por Eclipse Implementation of JAXB v4.0.5 
+// Visite https://eclipse-ee4j.github.io/jaxb-ri 
+// Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+//
+
+
+package com.angelsoft.sat.cfd._40;
+
+import jakarta.xml.bind.annotation.XmlRegistry;
+
+
+/**
+ * This object contains factory methods for each 
+ * Java content interface and Java element interface 
+ * generated in the com.angelsoft.sat.cfd._40 package. 
+ * <p>An ObjectFactory allows you to programmatically 
+ * construct new instances of the Java representation 
+ * for XML content. The Java representation of XML 
+ * content can consist of schema derived interfaces 
+ * and classes representing the binding of schema 
+ * type definitions, element declarations and model 
+ * groups.  Factory methods for each of these are 
+ * provided in this class.
+ * 
+ */
+@XmlRegistry
+public class ObjectFactory {
+
+
+    /**
+     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.angelsoft.sat.cfd._40
+     * 
+     */
+    public ObjectFactory() {
+    }
+
+    /**
+     * Create an instance of {@link Comprobante }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante }
+     */
+    public Comprobante createComprobante() {
+        return new Comprobante();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Impuestos }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Impuestos }
+     */
+    public Comprobante.Impuestos createComprobanteImpuestos() {
+        return new Comprobante.Impuestos();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Impuestos.Traslados }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Impuestos.Traslados }
+     */
+    public Comprobante.Impuestos.Traslados createComprobanteImpuestosTraslados() {
+        return new Comprobante.Impuestos.Traslados();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Impuestos.Retenciones }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Impuestos.Retenciones }
+     */
+    public Comprobante.Impuestos.Retenciones createComprobanteImpuestosRetenciones() {
+        return new Comprobante.Impuestos.Retenciones();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Conceptos }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Conceptos }
+     */
+    public Comprobante.Conceptos createComprobanteConceptos() {
+        return new Comprobante.Conceptos();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Conceptos.Concepto }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Conceptos.Concepto }
+     */
+    public Comprobante.Conceptos.Concepto createComprobanteConceptosConcepto() {
+        return new Comprobante.Conceptos.Concepto();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Conceptos.Concepto.Parte }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Conceptos.Concepto.Parte }
+     */
+    public Comprobante.Conceptos.Concepto.Parte createComprobanteConceptosConceptoParte() {
+        return new Comprobante.Conceptos.Concepto.Parte();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Conceptos.Concepto.Impuestos }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Conceptos.Concepto.Impuestos }
+     */
+    public Comprobante.Conceptos.Concepto.Impuestos createComprobanteConceptosConceptoImpuestos() {
+        return new Comprobante.Conceptos.Concepto.Impuestos();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Conceptos.Concepto.Impuestos.Retenciones }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Conceptos.Concepto.Impuestos.Retenciones }
+     */
+    public Comprobante.Conceptos.Concepto.Impuestos.Retenciones createComprobanteConceptosConceptoImpuestosRetenciones() {
+        return new Comprobante.Conceptos.Concepto.Impuestos.Retenciones();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Conceptos.Concepto.Impuestos.Traslados }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Conceptos.Concepto.Impuestos.Traslados }
+     */
+    public Comprobante.Conceptos.Concepto.Impuestos.Traslados createComprobanteConceptosConceptoImpuestosTraslados() {
+        return new Comprobante.Conceptos.Concepto.Impuestos.Traslados();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.CfdiRelacionados }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.CfdiRelacionados }
+     */
+    public Comprobante.CfdiRelacionados createComprobanteCfdiRelacionados() {
+        return new Comprobante.CfdiRelacionados();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.InformacionGlobal }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.InformacionGlobal }
+     */
+    public Comprobante.InformacionGlobal createComprobanteInformacionGlobal() {
+        return new Comprobante.InformacionGlobal();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Emisor }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Emisor }
+     */
+    public Comprobante.Emisor createComprobanteEmisor() {
+        return new Comprobante.Emisor();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Receptor }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Receptor }
+     */
+    public Comprobante.Receptor createComprobanteReceptor() {
+        return new Comprobante.Receptor();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Complemento }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Complemento }
+     */
+    public Comprobante.Complemento createComprobanteComplemento() {
+        return new Comprobante.Complemento();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Addenda }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Addenda }
+     */
+    public Comprobante.Addenda createComprobanteAddenda() {
+        return new Comprobante.Addenda();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Impuestos.Traslados.Traslado }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Impuestos.Traslados.Traslado }
+     */
+    public Comprobante.Impuestos.Traslados.Traslado createComprobanteImpuestosTrasladosTraslado() {
+        return new Comprobante.Impuestos.Traslados.Traslado();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Impuestos.Retenciones.Retencion }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Impuestos.Retenciones.Retencion }
+     */
+    public Comprobante.Impuestos.Retenciones.Retencion createComprobanteImpuestosRetencionesRetencion() {
+        return new Comprobante.Impuestos.Retenciones.Retencion();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Conceptos.Concepto.ACuentaTerceros }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Conceptos.Concepto.ACuentaTerceros }
+     */
+    public Comprobante.Conceptos.Concepto.ACuentaTerceros createComprobanteConceptosConceptoACuentaTerceros() {
+        return new Comprobante.Conceptos.Concepto.ACuentaTerceros();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Conceptos.Concepto.InformacionAduanera }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Conceptos.Concepto.InformacionAduanera }
+     */
+    public Comprobante.Conceptos.Concepto.InformacionAduanera createComprobanteConceptosConceptoInformacionAduanera() {
+        return new Comprobante.Conceptos.Concepto.InformacionAduanera();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Conceptos.Concepto.CuentaPredial }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Conceptos.Concepto.CuentaPredial }
+     */
+    public Comprobante.Conceptos.Concepto.CuentaPredial createComprobanteConceptosConceptoCuentaPredial() {
+        return new Comprobante.Conceptos.Concepto.CuentaPredial();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Conceptos.Concepto.ComplementoConcepto }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Conceptos.Concepto.ComplementoConcepto }
+     */
+    public Comprobante.Conceptos.Concepto.ComplementoConcepto createComprobanteConceptosConceptoComplementoConcepto() {
+        return new Comprobante.Conceptos.Concepto.ComplementoConcepto();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Conceptos.Concepto.Parte.InformacionAduanera }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Conceptos.Concepto.Parte.InformacionAduanera }
+     */
+    public Comprobante.Conceptos.Concepto.Parte.InformacionAduanera createComprobanteConceptosConceptoParteInformacionAduanera() {
+        return new Comprobante.Conceptos.Concepto.Parte.InformacionAduanera();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Conceptos.Concepto.Impuestos.Retenciones.Retencion }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Conceptos.Concepto.Impuestos.Retenciones.Retencion }
+     */
+    public Comprobante.Conceptos.Concepto.Impuestos.Retenciones.Retencion createComprobanteConceptosConceptoImpuestosRetencionesRetencion() {
+        return new Comprobante.Conceptos.Concepto.Impuestos.Retenciones.Retencion();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.Conceptos.Concepto.Impuestos.Traslados.Traslado }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.Conceptos.Concepto.Impuestos.Traslados.Traslado }
+     */
+    public Comprobante.Conceptos.Concepto.Impuestos.Traslados.Traslado createComprobanteConceptosConceptoImpuestosTrasladosTraslado() {
+        return new Comprobante.Conceptos.Concepto.Impuestos.Traslados.Traslado();
+    }
+
+    /**
+     * Create an instance of {@link Comprobante.CfdiRelacionados.CfdiRelacionado }
+     * 
+     * @return
+     *     the new instance of {@link Comprobante.CfdiRelacionados.CfdiRelacionado }
+     */
+    public Comprobante.CfdiRelacionados.CfdiRelacionado createComprobanteCfdiRelacionadosCfdiRelacionado() {
+        return new Comprobante.CfdiRelacionados.CfdiRelacionado();
+    }
+
+}
