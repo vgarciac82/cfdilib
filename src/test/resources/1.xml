@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Serie="C" Folio="36" Fecha="2026-02-19T14:18:26" Sello="wyZmMgipbbG+/LXBdrqjA/5ln1gqfoW70u5ayDtGkE2eOZM7GlPYAGjxFsNRICbLU03NSUO+UzYVJEjPVLjQGhMJZ5AWxb1ehvwDj0mhS+fogY+/tpfXx9WY9e/xZ5GrbM4286rH5N7fV1iUZaeGvoMyIu/xRmoyGqa8/jI96tCxT7tyrlQPRHTDexF++Puat+nHw0nC91dbNwyWBaW5AbPPITPibxXSUm4DiOUhTH67CSDX6Ev2ncuGcUZhfVc3ZWa0C5ERBUrmmH93lSFxRrhUUdLLH1MO/HAUZxDGEROCLEjsOnZi2PUWJYDv/+ZVKneK2anY//lIQqxc+2B8UQ==" FormaPago="99" NoCertificado="00001000000703871263" Certificado="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" SubTotal="26284.94" Moneda="MXN" Total="30161.95" TipoDeComprobante="I" Exportacion="01" MetodoPago="PPD" LugarExpedicion="60180" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfdi:Emisor Rfc="TOCM630530FJ6" Nombre="MARCO ANTONIO TORRES CERDA" RegimenFiscal="626" />
+  <cfdi:Receptor Rfc="CNF010405EG1" Nombre="COMISION NACIONAL FORESTAL" DomicilioFiscalReceptor="45019" RegimenFiscalReceptor="603" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="30263600" Cantidad="42" ClaveUnidad="KGM" Unidad="Kilogramo" Descripcion="ACERO ESTRUCTURAL PTR 2&quot;X2&quot;" ValorUnitario="94.83" Importe="3982.860000" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3982.860000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="637.257600" />
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+          <cfdi:Retencion Base="3982.860000" Impuesto="001" TipoFactor="Tasa" TasaOCuota="0.012500" Importe="49.785750" />
+        </cfdi:Retenciones>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="30263603" Cantidad="30" ClaveUnidad="KGM" Unidad="Kilogramo" Descripcion="ACERO ANGULO 2&quot;" ValorUnitario="94.83" Importe="2844.900000" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="2844.900000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="455.184000" />
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+          <cfdi:Retencion Base="2844.900000" Impuesto="001" TipoFactor="Tasa" TasaOCuota="0.012500" Importe="35.561250" />
+        </cfdi:Retenciones>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="30263600" Cantidad="16" ClaveUnidad="KGM" Unidad="Kilogramo" Descripcion="ACERO SOLERA 1.5&quot;X1/8" ValorUnitario="94.83" Importe="1517.280000" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1517.280000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="242.764800" />
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+          <cfdi:Retencion Base="1517.280000" Impuesto="001" TipoFactor="Tasa" TasaOCuota="0.012500" Importe="18.966000" />
+        </cfdi:Retenciones>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="30263600" Cantidad="50" ClaveUnidad="KGM" Unidad="Kilogramo" Descripcion="MALLA DE ACERO DE 1/8" ValorUnitario="94.83" Importe="4741.500000" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4741.500000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="758.640000" />
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+          <cfdi:Retencion Base="4741.500000" Impuesto="001" TipoFactor="Tasa" TasaOCuota="0.012500" Importe="59.268750" />
+        </cfdi:Retenciones>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="30263600" Cantidad="30" ClaveUnidad="KGM" Unidad="Kilogramo" Descripcion="ACERO PERFIL 1.5&quot;" ValorUnitario="94.83" Importe="2844.900000" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="2844.900000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="455.184000" />
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+          <cfdi:Retencion Base="2844.900000" Impuesto="001" TipoFactor="Tasa" TasaOCuota="0.012500" Importe="35.561250" />
+        </cfdi:Retenciones>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="30241500" Cantidad="15" ClaveUnidad="KGM" Unidad="Kilogramo" Descripcion="ALUMINO ARQUITECTONICO NEGRO" ValorUnitario="301.02" Importe="4515.300000" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4515.300000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="722.448000" />
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+          <cfdi:Retencion Base="4515.300000" Impuesto="001" TipoFactor="Tasa" TasaOCuota="0.012500" Importe="56.441250" />
+        </cfdi:Retenciones>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="30241500" Cantidad="20" ClaveUnidad="KGM" Unidad="Kilogramo" Descripcion="ALUMINIO ARQUITECTONICO GRIS" ValorUnitario="291.91" Importe="5838.200000" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="5838.200000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="934.112000" />
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+          <cfdi:Retencion Base="5838.200000" Impuesto="001" TipoFactor="Tasa" TasaOCuota="0.012500" Importe="72.977500" />
+        </cfdi:Retenciones>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="4205.58" TotalImpuestosRetenidos="328.57">
+    <cfdi:Retenciones>
+      <cfdi:Retencion Impuesto="001" Importe="328.57" />
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="26284.94" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="4205.58" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="C6307117-E12E-40FA-B111-981672BF1DAE" FechaTimbrado="2026-02-19T14:18:54" RfcProvCertif="SAT970701NN3" SelloCFD="wyZmMgipbbG+/LXBdrqjA/5ln1gqfoW70u5ayDtGkE2eOZM7GlPYAGjxFsNRICbLU03NSUO+UzYVJEjPVLjQGhMJZ5AWxb1ehvwDj0mhS+fogY+/tpfXx9WY9e/xZ5GrbM4286rH5N7fV1iUZaeGvoMyIu/xRmoyGqa8/jI96tCxT7tyrlQPRHTDexF++Puat+nHw0nC91dbNwyWBaW5AbPPITPibxXSUm4DiOUhTH67CSDX6Ev2ncuGcUZhfVc3ZWa0C5ERBUrmmH93lSFxRrhUUdLLH1MO/HAUZxDGEROCLEjsOnZi2PUWJYDv/+ZVKneK2anY//lIQqxc+2B8UQ==" NoCertificadoSAT="00001000000705250068" SelloSAT="d9TFH4oJzz8LfzyH2N4Nl4VMUeEc5PBwBG3jjyTha8VczSOrOVEdjVRPWETuSJR9aYmIGXNnkbfw6h+vl/QJB+mntrFbLE02CUWQhpvn1oL4csI24mTQmJOsGs8sSCPXCY54fQHEnm0KWnpdf9xjhsHz9mMTux1ifa4AEU+QgXS3isRe9vhKrv/gQsD2HfICFB3rIgBvaRe8XqWhgJiyfGcQp3/Jy7fSPkQQB37zaevotYk3R6n/GgZGjtH8d2O/UiDjhqmo1RGVRIofCPxae/+Qhe32socR7jNPijLXvDGqrmdXMWcYmRmJJ0zdTAaNDzD4Z7tvn3vgRGxwUaiCwQ==" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
